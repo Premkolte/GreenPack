@@ -1,0 +1,55 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# AWS SDK temporary files
+.aws/
+
+# Build files
+dist/
+build/
+
+# Cache and temporary files
+.cache/
+tmp/
+*.tmp
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.idea/
+.vscode/
+*.code-workspace
+
+# Ignore coverage reports
+coverage/
+
+# Ignore upload artifacts
+uploads/
+*.zip
+*.tar
+
+# Ignore S3 temp files (if used locally)
+*.bak
+*.old
+
+# Ignore lock files
+package-lock.json
+yarn.lock
+
+# Miscellaneous
+*.pid
+*.seed
+*.seed.js
